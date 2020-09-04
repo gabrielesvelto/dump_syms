@@ -8,8 +8,8 @@ use std::env::consts::ARCH;
 use std::error;
 use std::io::Write;
 use std::result;
-use symbolic::common::{Arch, Name};
-use symbolic::debuginfo::{peek, FileFormat};
+use symbolic_common::{Arch, Name};
+use symbolic_debuginfo::{peek, FileFormat};
 
 type Error = Box<dyn error::Error + std::marker::Send + std::marker::Sync>;
 pub type Result<T> = result::Result<T, Error>;

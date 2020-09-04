@@ -11,7 +11,7 @@ use pdb::{
 use std::collections::BTreeMap;
 use std::fmt::{Display, Formatter};
 use std::rc::Rc;
-use symbolic::debuginfo::pe::{ExceptionData, PeSymbolIterator};
+use symbolic_debuginfo::pe::{ExceptionData, PeSymbolIterator};
 
 use super::pdb::{PDBContributions, PDBSections};
 use super::source::SourceLineCollector;

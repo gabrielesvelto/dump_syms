@@ -13,9 +13,9 @@ use pdb::{
 use std::fmt::{Display, Formatter};
 use std::io::{Cursor, Write};
 use std::sync::Arc;
-use symbolic::common::Arch;
-use symbolic::debuginfo::{pdb::PdbObject, pe::PeObject, Object};
-use symbolic::minidump::cfi::AsciiCfiWriter;
+use symbolic_common::Arch;
+use symbolic_debuginfo::{pdb::PdbObject, pe::PeObject, Object};
+use symbolic_minidump::cfi::AsciiCfiWriter;
 use uuid::Uuid;
 
 use super::source::{SourceFiles, SourceLineCollector};
