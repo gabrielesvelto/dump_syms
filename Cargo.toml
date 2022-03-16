@@ -54,3 +54,10 @@ reqwest = { version = "0.11", default-features = false, features = [
 ] }
 fxhash = "0.2"
 tempfile = "3"
+
+[patch.crates-io]
+symbolic-debuginfo = { path = "/home/gsvelto/projects/symbolic/symbolic-debuginfo" }
+symbolic-demangle = { path = "/home/gsvelto/projects/symbolic/symbolic-demangle" }
+symbolic-minidump = { path = "/home/gsvelto/projects/symbolic/symbolic-minidump" }
+symbolic = { path = "/home/gsvelto/projects/symbolic/symbolic" }
+goblin = { path = "/home/gsvelto/projects/goblin" }

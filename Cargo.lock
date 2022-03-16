@@ -663,8 +663,6 @@ dependencies = [
 [[package]]
 name = "goblin"
 version = "0.7.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f27c1b4369c2cd341b5de549380158b105a04c331be5db9110eef7b6d2742134"
 dependencies = [
  "log",
  "plain",
@@ -1443,7 +1441,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "64a4a911eed85daf18834cfaa86a79b7d266ff93ff5ba14005426219480ed662"
 dependencies = [
  "libc",
- "winapi",
+ "windows-sys",
 ]
 
 [[package]]
@@ -1693,6 +1691,7 @@ dependencies = [
  "libc",
  "mio",
  "num_cpus",
+ "once_cell",
  "pin-project-lite",
  "socket2 0.5.4",
  "windows-sys",
